@@ -1,0 +1,8 @@
+* {
+  font-family: $font-family;
+}
+
+@mixin accent {
+  color: $accent-color;
+  text-decoration: none;
+}

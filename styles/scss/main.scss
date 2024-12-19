@@ -1,0 +1,19 @@
+@import "abstracts/variables";
+@import "base/reset";
+@import "base/typography";
+@import "components/overlay";
+@import "components/tweet";
+@import "layout/footer";
+@import "layout/header";
+
+* {
+  font-family: $font-family;
+}
+
+body {
+  background: $background-color;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100vh;
+}
