@@ -1,4 +1,8 @@
 article.twitter-thread {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 600px;
   overflow-y: auto;
   // article height - (header + footer)
   height: calc(100vh - (54.7px + 56.5px));
