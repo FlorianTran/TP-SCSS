@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body class="w-screen h-screen flex flex-col dark:bg-neutral-800 dark:text-white">
+    <header class="max-w-full border-b border-t-neutral-300">
+      <ul class="container mx-auto flex flex-row justify-between items-center py-4">
+        <li>
+          <h1 class="text-4xl font-bold">Je suis AL btw</h1>
+        </li>
+        <li class="flex flex-row justify-between items-center text-xl gap-4">
+          <a href="" class=" hidden lg:block hover:text-blue-400"> Home </a>
+          <a href="" class=" hidden lg:block hover:text-blue-400"> About </a>
+          <a href="" id="menu" class=" lg:hidden block hover:bg-blue-200 hover:text-blue-400 border border-neutral-300 px-3 py-1"> Menu </a>
+        </li>
+      </ul>
+    </header>
+
+    <article class="w-full flex-grow flex flex-col justify-center items-center p-10">
+      <div class="flex flex-col justify-center items-center gap-4">
+        <h2 class=" text-sm lg:text-xl font-bold">Clique pour avoir un truc de fou</h2>
+        <button class="text-sm lg:text-2xl dark:bg-sky-500 dark:bg-opacity-95 dark:text-white rounded-xl bg-sky-100 text-sky-500 p-4 lg:p-6 hover:bg-sky-500 hover:text-white">VASY CLIQUE !</button>
+        <p>ta pas les couilles</p>
+      </div>
+    </article>
+
+    <footer class=" h-20 flex flex-row justify-center items-center mt-auto max-w-full border-t border-neutral-300">
+      <p>@Copyright</p>
+    </footer>
+  </body>
+  <script>
+    const button = document.querySelector('button');
+    button.addEventListener('click', () => {
+      alert('T\'as les couilles !');
+    });
+    const menu = document.querySelector('#menu');
+    menu.addEventListener('click', () => {
+      alert('Sike ca marche pas 🥸🤣');
+    });
+  </script>
+</html>
