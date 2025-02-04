@@ -7,8 +7,8 @@
   <title>Twitter</title>
 </head>
 <body class=" w-screen h-screen">
-  <header>
-    <ul class=" w-full flex flex-row justify-between items-center py-2 px-6">
+  <header class=" h-nav border-b border-primarySeparator">
+    <ul class=" h-full w-full flex flex-row justify-between items-center py-2 px-6">
       <li>
         <a class="profil" href="">
           <!-- <span class="circle"></span> -->
@@ -30,70 +30,69 @@
     </ul>
   </header>
 
-  <article class="flex flex-col m-auto max-w-[600px] overflow-y-auto h-[calc(100vh-(54.7px+56.5px))]">
+  <article class="flex flex-col leading-5 m-auto max-w-articleWeight overflow-y-auto h-articleHeight">
     <ul class="flex flex-col">
       <li class=" w-full py-2 px-4 border-b border-primarySeparator">
-        <div class="
-        ">
+        <div class=" pl-12 pb-2 flex flex-row justify-start gap-2 items-center text-secondary text-sm">
           <img src="images/Heart Solid Icon.png" alt="like">
           <p class=" text-secondary">Kieron Dotson and Zack John liked</p>
         </div>
 
-        <div class="tweet-container">
-          <div class="profile with-thread">
+        <div class="flex  flex-row">
+          <div class="flex flex-col pr-3 justify-center items-center gap-2">
             <a href="">
               <img src="images/profile/Round-3.png" alt="profile">
             </a>
 
-            <span class="line"></span>
+            <span class=" block w-[1px] h-2/5 bg-secondarySeparator"></span>
 
-            <img src="images/profile/Round-3.png" class="profile-thread" alt="profile">
+            <img src="images/profile/Round-3.png" class=" block h-9 w-9" alt="profile">
           </div>
 
-          <div class="content">
-            <div class="info-container">
-              <div class="info">
-                <p class="name">Martha Craig</p>
+          <div class=" w-full">
+            <div class="flex flex-row text-base justify-between">
+              <div class="flex flex-row items-center gap-2">
+                <p class=" font-bold">Martha Craig</p>
                 <p class=" text-secondary">@craig_love</p>
                 <p class=" text-secondary">·12h</p>
               </div>
-              <span class="drop-down">
+              <span class="flex items-center justify-center">
               <img src="images/Down Arrow icon.png" alt="down arrow">
             </span>
             </div>
 
-            <div class="container-text">
-              <p class="text-content">UXR/UX: You can only bring one item to a remote island to assist your research of native use of tools and usability. What do you bring? <span class="text-accent">#TellMeAboutYou</span></p>
-              <ul class="interactions-button-container">
-                <li>
-                  <a href="">
-                    <img src="images/Comment stroke icon.png" alt="comment" class="interaction-icon">
+            <div class="flex flex-col mt-1 gap-2">
+              <p>UXR/UX: You can only bring one item to a remote island to assist your research of native use of tools and usability. What do you bring? <span class="text-accent">#TellMeAboutYou</span></p>
+              <ul class="flex flex-row items-center w-full">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Comment stroke icon.png" alt="comment" class=" object-cover">
                     <p class=" text-secondary">28</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Retweet stroke icon.png" alt="retweet" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Retweet stroke icon.png" alt="retweet" class=" object-cover">
                     <p class=" text-secondary">5</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Heart stroke icon.png" alt="fav" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Heart stroke icon.png" alt="fav" class=" object-cover">
                     <p class=" text-secondary">21</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Share stroke icon.png" alt="share" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Share stroke icon.png" alt="share" class=" object-cover">
                   </a>
                 </li>
               </ul>
 
-              <div class="thread">
+              <div class="mb-2">
                 <a href="" class=" text-accent">Show this thread</a>
               </div>
             </div>
@@ -101,23 +100,23 @@
         </div>
       </li>
 
-      <li class="tweet">
-        <div class="interaction">
+      <li class="w-full py-2 px-4 border-b border-primarySeparator">
+        <div class=" pl-12 pb-2 flex flex-row justify-start gap-2 items-center text-secondary text-sm">
           <img src="images/Heart Solid Icon.png" alt="like">
           <p class=" text-secondary">Zack John liked</p>
         </div>
 
-        <div class="tweet-container">
-          <div class="profile">
+        <div class="flex  flex-row">
+          <div class="flex flex-col justify-baseline pr-3">
             <a href="">
               <img src="images/profile/Round-2.png" alt="profile">
             </a>
           </div>
 
-          <div class="content">
-            <div class="info-container">
-              <div class="info">
-                <p class="name">Maximmilian</p>
+          <div class=" w-full">
+            <div class="flex flex-row text-base justify-between">
+              <div class="flex flex-row items-center gap-2">
+                <p class=" font-bold">Maximmilian</p>
                 <p class=" text-secondary">@maxjacobson</p>
                 <p class=" text-secondary">·3h</p>
               </div>
@@ -126,33 +125,33 @@
             </span>
             </div>
 
-            <div class="container-text">
-              <p class="text-content">Y’all ready for this next post?</p>
-              <ul class="interactions-button-container">
-                <li>
-                  <a href="">
-                    <img src="images/Comment stroke icon.png" alt="comment" class="interaction-icon">
+            <div class="flex flex-col mt-1 gap-2">
+              <p>Y’all ready for this next post?</p>
+              <ul class="flex flex-row items-center w-full">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Comment stroke icon.png" alt="comment" class=" object-cover">
                     <p class=" text-secondary">46</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Retweet stroke icon.png" alt="retweet" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Retweet stroke icon.png" alt="retweet" class=" object-cover">
                     <p class=" text-secondary">18</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Heart stroke icon.png" alt="fav" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Heart stroke icon.png" alt="fav" class=" object-cover">
                     <p class=" text-secondary">363</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Share stroke icon.png" alt="share" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Share stroke icon.png" alt="share" class=" object-cover">
                   </a>
                 </li>
               </ul>
@@ -161,23 +160,23 @@
         </div>
       </li>
 
-      <li class="tweet">
-        <div class="interaction">
+      <li class="w-full py-2 px-4 border-b border-primarySeparator">
+        <div class=" pl-12 pb-2 flex flex-row justify-start gap-2 items-center text-secondary text-sm">
           <img src="images/Retweet stroke icon.png" alt="like">
           <p class=" text-secondary">Kieron Dotson Retweeted</p>
         </div>
 
-        <div class="tweet-container">
-          <div class="profile">
+        <div class="flex  flex-row">
+          <div class="flex flex-col justify-baseline pr-3">
             <a href="">
               <img src="images/profile/Round-1.png" alt="profile">
             </a>
           </div>
 
-          <div class="content">
-            <div class="info-container">
-              <div class="info">
-                <p class="name">Tabitha Potter</p>
+          <div class=" w-full">
+            <div class="flex flex-row text-base justify-between">
+              <div class="flex flex-row items-center gap-2">
+                <p class=" font-bold">Tabitha Potter</p>
                 <img src="images/Tick icon.png" alt="tick-icon">
                 <p class=" text-secondary">@mis_potter</p>
                 <p class=" text-secondary">·14h</p>
@@ -187,33 +186,33 @@
             </span>
             </div>
 
-            <div class="container-text">
-              <p class="text-content">Kobe’s passing is really sticking w/ me in a way I didn’t expect. <br><br> He was an icon, the kind of person who wouldn’t die this way. My wife compared it to Princess Di’s accident.<br><br> But the end can happen for anyone at any time, &amp; I can’t help but think of anything else lately.</p>
-              <ul class="interactions-button-container">
-                <li>
-                  <a href="">
-                    <img src="images/Comment stroke icon.png" alt="comment" class="interaction-icon">
+            <div class="flex flex-col mt-1 gap-2">
+              <p>Kobe’s passing is really sticking w/ me in a way I didn’t expect. <br><br> He was an icon, the kind of person who wouldn’t die this way. My wife compared it to Princess Di’s accident.<br><br> But the end can happen for anyone at any time, &amp; I can’t help but think of anything else lately.</p>
+              <ul class="flex flex-row items-center w-full">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Comment stroke icon.png" alt="comment" class=" object-cover">
                     <p class=" text-secondary">7</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Retweet stroke icon.png" alt="retweet" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Retweet stroke icon.png" alt="retweet" class=" object-cover">
                     <p class=" text-secondary">1</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Heart stroke icon.png" alt="fav" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Heart stroke icon.png" alt="fav" class=" object-cover">
                     <p class=" text-secondary">11</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Share stroke icon.png" alt="share" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Share stroke icon.png" alt="share" class=" object-cover">
                   </a>
                 </li>
               </ul>
@@ -223,23 +222,23 @@
       </li>
 
       
-      <li class="tweet">
-        <div class="interaction">
+      <li class="w-full py-2 px-4 border-b border-primarySeparator">
+        <div class=" pl-12 pb-2 flex flex-row justify-start gap-2 items-center text-secondary text-sm">
           <img src="images/Heart Solid Icon.png" alt="like">
           <p class=" text-secondary">Zack John liked</p>
         </div>
 
-        <div class="tweet-container">
-          <div class="profile">
+        <div class="flex  flex-row">
+          <div class="flex flex-col justify-baseline pr-3">
             <a href="">
               <img src="images/profile/Round.png" alt="profile">
             </a>
           </div>
 
-          <div class="content">
-            <div class="info-container">
-              <div class="info">
-                <p class="name">karennne</p>
+          <div class=" w-full">
+            <div class="flex flex-row text-base justify-between">
+              <div class="flex flex-row items-center gap-2">
+                <p class=" font-bold">karennne</p>
                 <p class=" text-secondary">@karennne</p>
                 <p class=" text-secondary">·10h</p>
               </div>
@@ -248,33 +247,33 @@
             </span>
             </div>
 
-            <div class="container-text">
-              <p class="text-content">Name a show where the lead character is the worst character on the show I’ll get Sabrina Spellman</p>
-              <ul class="interactions-button-container">
-                <li>
-                  <a href="">
-                    <img src="images/Comment stroke icon.png" alt="comment" class="interaction-icon">
+            <div class="flex flex-col mt-1 gap-2">
+              <p>Name a show where the lead character is the worst character on the show I’ll get Sabrina Spellman</p>
+              <ul class="flex flex-row items-center w-full">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Comment stroke icon.png" alt="comment" class=" object-cover">
                     <p class=" text-secondary">1 906</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Retweet stroke icon.png" alt="retweet" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Retweet stroke icon.png" alt="retweet" class=" object-cover">
                     <p class=" text-secondary">1 249</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Heart stroke icon.png" alt="fav" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Heart stroke icon.png" alt="fav" class=" object-cover">
                     <p class=" text-secondary">7 461</p>
                   </a>
                 </li>
                 
-                <li>
-                  <a href="">
-                    <img src="images/Share stroke icon.png" alt="share" class="interaction-icon">
+                <li class="w-full">
+                  <a href="" class="flex flex-row items-center gap-2 text-xs text-secondary">
+                    <img src="images/Share stroke icon.png" alt="share" class=" object-cover">
                   </a>
                 </li>
               </ul>
@@ -286,14 +285,14 @@
     </ul>
   </article>
 
-  <div class="overlay">
-    <a href="add-text-button" class>
-      <img src="images/Add text icon.png" alt="Add">
+  <div class=" fixed bottom-20 right-4">
+    <a href="add-text-button" class="flex items-center justify-center bg-accent h-14 w-14 rounded-full">
+      <img src="images/Add text icon.png" alt="Add" class=" ">
     </a>
   </div>
 
-  <footer>
-    <ul class=" min-w-screen flex flex-row justify-between items-center py-4 px-8 shadow-sm">
+  <footer class="h-nav">
+    <ul class=" h-full min-w-screen flex flex-row justify-between items-center py-4 px-6 shadow-sm">
       <li class="icon-container">
         <a href="index.html">
           <img src="images/Home Solid Icon.png" alt="Home">

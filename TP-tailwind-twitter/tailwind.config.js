@@ -13,6 +13,11 @@ module.exports = {
       fontFamily: {
         sans: ['"sf-pro-text"', 'sans-serif'],
       },
+      height: {
+        nav: '60px',
+        articleHeight: 'calc(100vh - (60px + 60px))',
+        articleWidth: '600px',
+      },
     },
   },
   plugins: [],
